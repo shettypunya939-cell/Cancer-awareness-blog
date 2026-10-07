@@ -1,0 +1,6 @@
+{
+  "name": "Beyond Cancer",
+  "description": "An engaging, scientifically grounded digital publication exploring cancer biology, modern detection, advanced treatments, and the scientific search for a cure.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
