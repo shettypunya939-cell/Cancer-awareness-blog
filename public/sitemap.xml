@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Homepage -->
+  <url>
+    <loc>https://beyondcancer.org/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Featured Guide: Osteosarcoma & Bone Cancer -->
+  <url>
+    <loc>https://beyondcancer.org/articles/understanding-osteosarcoma-bone-cancer-guide</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Article 1: Cancer Isn't Just One Disease -->
+  <url>
+    <loc>https://beyondcancer.org/articles/cancer-isnt-just-one-disease</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Article 2: Where Does Cancer Begin -->
+  <url>
+    <loc>https://beyondcancer.org/articles/where-does-cancer-begin</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Article 3: The Warning Signs -->
+  <url>
+    <loc>https://beyondcancer.org/articles/the-warning-signs</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Article 4: From Scan to Biopsy -->
+  <url>
+    <loc>https://beyondcancer.org/articles/from-scan-to-biopsy</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Article 5: How Chemotherapy Works -->
+  <url>
+    <loc>https://beyondcancer.org/articles/how-chemotherapy-works</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Article 6: More Than Chemotherapy -->
+  <url>
+    <loc>https://beyondcancer.org/articles/more-than-chemotherapy</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Article 7: Rise of Immunotherapy -->
+  <url>
+    <loc>https://beyondcancer.org/articles/turning-the-immune-system-into-a-weapon</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Article 8: When Cancer Spreads -->
+  <url>
+    <loc>https://beyondcancer.org/articles/when-cancer-spreads</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Article 9: Research Changing the Future -->
+  <url>
+    <loc>https://beyondcancer.org/articles/could-we-cure-more-cancers</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Article 10: The Search for a Cure -->
+  <url>
+    <loc>https://beyondcancer.org/articles/the-search-for-a-cure</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Interactive Quiz -->
+  <url>
+    <loc>https://beyondcancer.org/quiz</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- About Section -->
+  <url>
+    <loc>https://beyondcancer.org/about</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Disclaimer Section -->
+  <url>
+    <loc>https://beyondcancer.org/disclaimer</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+</urlset>
