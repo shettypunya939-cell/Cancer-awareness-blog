@@ -933,6 +933,191 @@ export const ARTICLES: Article[] = [
         url: 'https://doi.org/10.1073/pnas.072067999'
       }
     ]
+  },
+  {
+    id: 'understanding-osteosarcoma-bone-cancer-guide',
+    slug: 'understanding-osteosarcoma-bone-cancer-guide',
+    title: 'Osteosarcoma & Bone Cancer: Symptoms, Limb-Salvage Treatments, Survivorship, and Caregiver Support',
+    subtitle: 'Understanding primary bone malignancy in adolescents and young adults—from persistent night pain and radiographic signs to limb-sparing surgery, MAP chemotherapy, and family caregiver networks.',
+    studentHook: 'When most people hear the word "bone cancer," they assume an older person whose breast or prostate cancer spread to their skeleton. But when I shadowed in pediatric orthopedic oncology, I met a 15-year-old track runner who thought he just pulled a hamstring during practice. Three weeks later, an X-ray revealed a lesion in his distal femur. That was my introduction to osteosarcoma—the most common primary bone cancer in children, teens, and young adults.',
+    readTimeMinutes: 9,
+    publishDate: 'October 8, 2026',
+    category: 'Specific Cancers & Care',
+    tags: [
+      'Osteosarcoma',
+      'Bone Cancer Awareness',
+      'Limb-Salvage Surgery',
+      'MAP Chemotherapy Regimen',
+      'Caregiver Support',
+      'Survivorship'
+    ],
+    heroImage: detectionImg,
+    heroImageAlt: 'Radiographic orthopedic imaging and histological bone section demonstrating osteosarcoma osteoid formation',
+    heroCaption: 'Radiographic evaluation of osteosarcoma typically reveals a destructive metaphyseal lesion with periosteal reaction ("Codman triangle" or "sunburst" pattern) alongside malignant osteoid tissue on biopsy.',
+    statusClassification: 'Standard of Care',
+    summary: 'A comprehensive, evidence-based guide to osteosarcoma: early symptoms and distinguishing bone pain from growing pains, diagnostic imaging and biopsies, multimodal MAP chemotherapy, modern limb-salvage reconstruction, long-term survivorship, and vital emotional resources for caregivers and families.',
+    metaDescription: 'Complete guide to osteosarcoma: early bone cancer symptoms, radiographic diagnosis, limb-salvage surgery, MAP chemotherapy, survivorship, and caregiver support.',
+    primaryKeywords: [
+      'osteosarcoma symptoms in teens',
+      'bone cancer diagnosis and warning signs',
+      'osteosarcoma treatment limb salvage surgery',
+      'map chemotherapy regimen osteosarcoma',
+      'bone cancer survivorship and rehabilitation',
+      'osteosarcoma caregiver support and family resources',
+      'primary bone cancer vs bone metastasis'
+    ],
+    keyTakeaways: [
+      'Osteosarcoma is the most common primary malignant bone cancer, with peak incidence during the adolescent growth spurt (ages 10 to 19).',
+      'The earliest symptom is typically persistent, deep, localized bone pain that frequently wakes the patient at night and is often mistaken for sports injuries or "growing pains."',
+      'Diagnosis requires plain radiographs (showing osteolytic/osteoblastic destruction and periosteal lifting), local MRI, chest CT to screen for lung metastases, and an expertly placed core needle biopsy.',
+      'Modern multimodal therapy combines neoadjuvant chemotherapy (the MAP regimen: Methotrexate, Adriamycin/Doxorubicin, Cisplatin) with limb-salvage surgical resection, achieving ~70% long-term survival in localized disease.',
+      'Survivorship requires lifelong prosthetic and orthopedic monitoring, cardiac and renal follow-ups, and robust psychosocial support networks for patients and caregivers.'
+    ],
+    interactiveDiagram: {
+      type: 'diagnostic-matrix',
+      title: 'Osteosarcoma Clinical Pathway: From Symptom to Survivorship',
+      caption: 'Initial Plain Radiograph → MRI Staging → Expert Biopsy → Neoadjuvant MAP Chemo → Limb-Salvage Resection → Adjuvant Chemo & Rehabilitation.'
+    },
+    sections: [
+      {
+        id: 'what-is-osteosarcoma',
+        heading: 'What Is Osteosarcoma? The Biology of Malignant Bone-Forming Cells',
+        content: [
+          'While secondary bone metastases (cancers that spread from other organs to bone) are relatively common in older adults, osteosarcoma is a primary bone malignancy. That means the cancer originates directly within mesenchymal stem cells destined to form bone.',
+          'Under the microscope, pathologists define osteosarcoma by one defining histological feature: the direct production of immature bone matrix—known as osteoid—by malignant cells. Unlike mature bone, which is organized in dense, orderly osteons with mineralized calcium hydroxyapatite, malignant osteoid is disorganized, brittle, and rapidly expansile.',
+          'Osteosarcoma most commonly strikes during periods of rapid skeletal elongation. Over 60% of cases occur in the metaphyseal regions of long bones surrounding the knee: the distal femur (lower thighbone) and proximal tibia (upper shinbone), followed by the proximal humerus (upper arm). The coincidence between peak incidence and adolescent growth spurts strongly suggests that high rates of bone cell proliferation create a biological window of vulnerability where DNA replication errors can escape repair.'
+        ],
+        callout: {
+          title: 'Verified Fact: Peak Age and Incidence',
+          text: 'According to the National Cancer Institute (NCI) and the American Cancer Society, osteosarcoma accounts for approximately 56% of all primary bone malignancies in children and teenagers, with an incidence peak between ages 10 and 19 years old.',
+          type: 'verified-fact'
+        }
+      },
+      {
+        id: 'recognizing-symptoms-vs-growing-pains',
+        heading: 'Recognizing the Warning Signs: Distinguishing Bone Pain from "Growing Pains"',
+        content: [
+          'Because osteosarcoma is rare (roughly 1,000 new cases diagnosed each year in the United States) and predominantly affects active teenagers, the earliest symptoms are almost universally misdiagnosed at first as sports strains, sprains, or normal "growing pains."',
+          'However, orthopedic oncologists highlight several crucial clinical red flags that distinguish osteosarcoma from benign childhood aches:',
+          '1. Unilateral Location: Benign growing pains typically affect both legs symmetrically (bilateral calves or thighs). Osteosarcoma is virtually always unilateral, confined to a specific, identifiable bone site.',
+          '2. Nocturnal Pain: Pain from osteosarcoma frequently wakes the patient from a deep sleep at night or occurs while resting on the couch, independent of whether they played sports that day.',
+          '3. Duration & Progression: While a sports sprain steadily improves over 10 to 14 days with rest and ice, bone cancer pain progressively intensifies over weeks and months.',
+          '4. Local Swelling or Firm Mass: As the tumor erodes through the cortex of the bone, it stretches the nerve-rich periosteum and creates a firm, palpable, sometimes warm swelling that does not move under the skin. In late stages, it can cause a pathologic fracture through weakened bone.'
+        ]
+      },
+      {
+        id: 'the-diagnostic-pathway',
+        heading: 'The Diagnostic Pathway: From X-Rays and MRI to Definitive Bone Biopsy',
+        content: [
+          'When persistent, localized bone pain occurs, the mandatory first step is simple and rapid: a plain two-view X-ray of the affected bone.',
+          'On X-ray, osteosarcoma often exhibits a classic "sunburst" appearance of irregular bone spicules radiating outward, as well as a "Codman triangle"—a triangular elevation where the aggressive tumor peels the periosteum away from the bone surface.',
+          'If the X-ray is suspicious, three further diagnostic steps are non-negotiable:',
+          'First, an MRI of the entire affected bone to evaluate soft-tissue extension, joint involvement, and "skip metastases" (small secondary tumors in the same bone).',
+          'Second, high-resolution CT of the chest and a whole-body bone scan or PET scan. Osteosarcoma has a strong biological predilection to metastasize to the lungs (roughly 15% to 20% of patients have clinically detectable lung nodules at diagnosis).',
+          'Third, a definitive biopsy. Critically, the biopsy must be performed or strictly directed by the orthopedic oncology surgeon who will perform the definitive tumor resection. A misplaced biopsy track can contaminate adjacent healthy neurovascular bundles, making subsequent limb-salvage impossible.'
+        ],
+        callout: {
+          title: 'Clinical Golden Rule: Biopsy Placement Matters',
+          text: 'The American Academy of Orthopaedic Surgeons (AAOS) warns that an incorrectly placed biopsy incision can seed tumor cells across multiple fascial planes. The biopsy tract must be placed so that the entire scar can be excised en bloc during definitive surgery.',
+          type: 'clinical-context'
+        }
+      },
+      {
+        id: 'modern-multimodal-treatment',
+        heading: 'Modern Multimodal Treatment: Neoadjuvant Chemotherapy & Limb-Salvage Surgery',
+        content: [
+          'Prior to the 1970s, the standard treatment for osteosarcoma was immediate amputation of the affected limb. Tragic as it was, even after losing a leg or arm, roughly 80% of patients died within two years because microscopic micrometastases had already seeded into their lungs before surgery.',
+          'The turning point came when oncologists introduced neoadjuvant (pre-operative) systemic chemotherapy. Today, osteosarcoma is treated with a rigorous multimodal protocol:',
+          '1. Neoadjuvant Chemotherapy (MAP Regimen): Patients receive approximately 10 weeks of intensive chemotherapy using the "MAP" triad: High-Dose Methotrexate (with leucovorin rescue), Adriamycin (doxorubicin), and Cisplatin. This shrinks the primary tumor, hardens its margins, and kills microscopic circulating cells.',
+          '2. Limb-Salvage Surgery: In over 90% to 95% of specialized centers today, amputation is avoided. Orthopedic oncologists perform complete en bloc surgical resection with wide, clean margins, preserving major nerves and blood vessels. The resected bone and joint are reconstructed using custom modular titanium endoprostheses, biological bone allografts, or in young children, expandable prostheses that can be lengthened non-invasively using external magnets as the child grows.',
+          '3. Adjuvant Chemotherapy: The resected tumor is carefully examined by the pathologist for "necrosis percentage." If 90% or more of the tumor cells are dead, it signifies a "good histologic response," predictive of excellent long-term survival. Post-operative chemotherapy continues for another several months to ensure total eradication.'
+        ]
+      },
+      {
+        id: 'survivorship-and-rehabilitation',
+        heading: 'Survivorship, Rehabilitation, and Long-Term Physical Care',
+        content: [
+          'Completing treatment for osteosarcoma is a monumental victory, but it marks the start of a lifelong survivorship journey. Today, approximately 70% of individuals with localized osteosarcoma become long-term survivors.',
+          'Survivorship requires dedicated, long-term multidisciplinary care:',
+          'Orthopedic and Prosthetic Follow-up: Endoprosthetic implants experience mechanical wear over decades. Survivors undergo periodic radiographic checks for prosthetic loosening, wear, or infection. Modern prosthetics can last 10 to 20 years or longer before requiring revision.',
+          'Physical and Occupational Rehabilitation: Rebuilding quadriceps or calf muscle strength around a metallic knee joint takes months of intensive physical therapy. Many survivors return to walking, hiking, swimming, cycling, and active careers.',
+          'Late-Effects Monitoring: Because high-dose chemotherapy regimens involve anthracyclines (doxorubicin) and cisplatin, guidelines from the Children’s Oncology Group (COG) recommend periodic echocardiograms to monitor cardiac muscle health, audiograms for high-frequency hearing preservation, and renal function checks.'
+        ]
+      },
+      {
+        id: 'caregiver-support-and-family-resources',
+        heading: 'Caregiver Support & Mental Health: Navigating the Diagnosis as a Family',
+        content: [
+          'An osteosarcoma diagnosis lands like a seismic shock on a family. Parents suddenly transition from cheering at high school soccer matches to managing central venous lines, calculating fluid intake, and helping a teenager cope with hair loss, physical limitations, and emotional turbulence.',
+          'Caregivers experience staggering levels of acute and chronic stress. Dedicated oncology social workers and child life specialists emphasize that caregiver well-being is not a luxury—it is fundamental to the patient’s recovery.',
+          'Key support pillars for families and caregivers include:',
+          'Peer Connection: Organizations like MIB Agents (dedicated exclusively to pediatric and young adult osteosarcoma), the Sarcoma Foundation of America (SFA), and the Bone Cancer Research Trust offer dedicated peer-to-peer mentoring where newly diagnosed parents can speak with veteran caregivers who have walked the path.',
+          'Hospital-Based Psychosocial Support: Pediatric cancer centers provide clinical psychologists, social workers, and financial navigators who assist with school re-entry plans, hospital lodging (such as Ronald McDonald House), and medical leave protection (FMLA).',
+          'Mental Health for Adolescent Patients: Teens with osteosarcoma face disruption to their identity, athletic independence, and social circles. Connecting with adolescent and young adult (AYA) cancer programs helps combat isolation, allowing young patients to share their feelings openly with peers who truly understand.'
+        ],
+        callout: {
+          title: 'Trusted Resources for Patients and Caregivers',
+          text: 'Families facing an osteosarcoma diagnosis can connect with certified resources: MIB Agents (mibagents.org), Sarcoma Foundation of America (curesarcoma.org), and the Children’s Oncology Group Family Guidelines (childrensoncologygroup.org).',
+          type: 'verified-fact'
+        }
+      }
+    ],
+    qnaList: [
+      {
+        question: 'What is usually the very first symptom of osteosarcoma in children or teenagers?',
+        shortAnswer: 'Persistent, localized bone pain (often around the knee) that progressively worsens over weeks, frequently wakes the patient from sleep at night, and does not resolve with standard rest or over-the-counter painkillers.',
+        detailedAnswer: 'Because teenagers are physically active, this pain is frequently misidentified as a sports strain or growing pains. However, growing pains are typically bilateral and intermittent, whereas osteosarcoma pain is unilateral, focal, and unremitting.'
+      },
+      {
+        question: 'Can osteosarcoma be successfully treated without amputating the arm or leg?',
+        shortAnswer: 'Yes. In more than 90% of specialized sarcoma centers today, surgeons perform limb-salvage (limb-sparing) surgery, resecting the tumor with clear margins and reconstructing the bone and joint with modular titanium prostheses or bone allografts.',
+        detailedAnswer: 'Pre-operative neoadjuvant chemotherapy (the MAP regimen) shrinks the tumor and hardens its boundaries, enabling surgeons to safely dissect the malignancy away from adjacent major blood vessels and nerves.'
+      },
+      {
+        question: 'What is the MAP chemotherapy regimen used for osteosarcoma?',
+        shortAnswer: 'MAP is the gold-standard three-drug chemotherapy regimen for osteosarcoma: Methotrexate (high-dose with leucovorin rescue), Adriamycin (doxorubicin), and Cisplatin (Platinol), administered both before and after surgery.',
+        detailedAnswer: 'This combination attacks cancer cells through multiple cellular pathways: methotrexate inhibits dihydrofolate reductase during S-phase DNA synthesis, doxorubicin intercalates DNA and inhibits topoisomerase II, and cisplatin creates DNA cross-links.'
+      },
+      {
+        question: 'Where can families and caregivers of bone cancer patients find support?',
+        shortAnswer: 'Certified organizations include MIB Agents (dedicated to osteosarcoma families), the Sarcoma Foundation of America (SFA), the Children’s Oncology Group (COG), and hospital pediatric oncology social work teams.',
+        detailedAnswer: 'These organizations provide peer-to-peer parent mentoring, financial assistance programs, adolescent/young adult (AYA) social groups, and comprehensive survivorship guidelines for long-term health.'
+      }
+    ],
+    sources: [
+      {
+        id: 'nci-osteosarcoma-treatment',
+        authorOrOrg: 'National Cancer Institute (NCI)',
+        title: 'Osteosarcoma and Malignant Fibrous Histiocytoma of Bone Treatment (PDQ®)',
+        publicationOrSource: 'National Institutes of Health Health Professional Version',
+        year: '2024',
+        url: 'https://www.cancer.gov/types/bone/hp/osteosarcoma-treatment-pdq'
+      },
+      {
+        id: 'acs-osteosarcoma-guide',
+        authorOrOrg: 'American Cancer Society (ACS)',
+        title: 'Osteosarcoma: Early Detection, Diagnosis, Staging, and Treatment',
+        publicationOrSource: 'Cancer.org Medical Editorial Team',
+        year: '2024',
+        url: 'https://www.cancer.gov/types/bone/hp/osteosarcoma-treatment-pdq'
+      },
+      {
+        id: 'aaos-limb-salvage',
+        authorOrOrg: 'American Academy of Orthopaedic Surgeons (AAOS)',
+        title: 'Limb-Salvage Surgery in Musculoskeletal Oncology: Clinical Guidelines',
+        publicationOrSource: 'Journal of the American Academy of Orthopaedic Surgeons',
+        year: '2023',
+        url: 'https://www.aaos.org'
+      },
+      {
+        id: 'cog-survivorship-guidelines',
+        authorOrOrg: 'Children’s Oncology Group (COG)',
+        title: 'Long-Term Follow-Up Guidelines for Survivors of Childhood, Adolescent, and Young Adult Cancers',
+        publicationOrSource: 'Children’s Oncology Group Clinical Guidelines',
+        year: '2023',
+        url: 'https://www.survivorshipguidelines.org'
+      }
+    ]
   }
 ];
 
@@ -941,7 +1126,8 @@ export const CATEGORIES = [
   'Cellular Biology',
   'Diagnostics & Detection',
   'Treatments & Therapies',
-  'Frontiers of Research'
+  'Frontiers of Research',
+  'Specific Cancers & Care'
 ] as const;
 
 export const QUIZ_QUESTIONS: QuizQuestion[] = [
